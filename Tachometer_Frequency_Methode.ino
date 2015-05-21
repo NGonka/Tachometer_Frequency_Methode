@@ -4,7 +4,7 @@
 
 volatile int			counts		=	0;
 volatile unsigned long	last_micros	=	0;
-volatile long			rpm			=	0;;
+volatile long			rpm			=	0;
 static int				testpin		=	11;
 static int				dirPin		=	7;
 volatile int			dir			=	3;
